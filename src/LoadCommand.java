@@ -1,5 +1,5 @@
 /**
- *   @author ravipatel
+ *   @author RaviPatel
  *   this class executes and Loads the document
  */
 public class LoadCommand implements Command {
@@ -14,7 +14,7 @@ public class LoadCommand implements Command {
 	}
 	
 	/**
-	 * this method excutes and calls load function in Document class  
+	 * this method executes and calls load function in Document class  
 	 */
 	@Override
 	public void execute() {
@@ -22,11 +22,11 @@ public class LoadCommand implements Command {
 	}
 
 	/**
-	 * this function returns the name
+	 * this function returns the name: load
 	 */
 	@Override
 	public String getName() {
-		return "Load";
+		return "load";
 	}
 	
 

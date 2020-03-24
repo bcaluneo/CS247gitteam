@@ -1,5 +1,5 @@
 /**
- *  @author ravipatel
+ *  @author RaviPatel
  *  this class executes and prints the docs
  */
 public class PrintCommand implements Command {
@@ -14,7 +14,7 @@ public class PrintCommand implements Command {
 	}
 	
 	/**
-	 * this method excutes and calls print function in Document class 
+	 * this method executes and calls print function in Document class 
 	 */
 	@Override
 	public void execute() {
@@ -22,11 +22,11 @@ public class PrintCommand implements Command {
 	}
 
 	/**
-	 * this method returns the name 
+	 * this method returns the name: print
 	 */
 	@Override
 	public String getName() {
-		return "Print";
+		return "print";
 	}
 	
 
