@@ -1,19 +1,25 @@
 
 public class SaveCommand implements Command {
 
+	
+	private Document doc;
+	
+	/**
+	 * @param doc: Document Type
+	 */
 	public SaveCommand (Document doc) {
+		this.doc = doc;
 		
 	}
 	@Override
 	public void execute() {
-		// TODO Auto-generated method stub
+		doc.save();
 		
 	}
 
 	@Override
 	public String getName() {
-		// TODO Auto-generated method stub
-		return null;
+		return "save";
 	}
 	
 
