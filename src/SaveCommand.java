@@ -1,4 +1,6 @@
-
+/**
+ * Osama Askar
+ */
 public class SaveCommand implements Command {
 
 	
@@ -11,12 +13,17 @@ public class SaveCommand implements Command {
 		this.doc = doc;
 		
 	}
+	/**
+	 * executes and calls save function
+	 */
 	@Override
 	public void execute() {
 		doc.save();
 		
 	}
-
+	/**
+	 * returns the name: save
+	 */
 	@Override
 	public String getName() {
 		return "save";
