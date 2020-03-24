@@ -13,11 +13,11 @@ public class SpellCommand implements Command {
 		
 	}
 	/**
-	 * executes and calls spell function 
+	 * executes and calls spellCheck function 
 	 */
 	@Override
 	public void execute() {
-		doc.spell();
+		doc.spellCheck();
 		
 	}
 	/**
