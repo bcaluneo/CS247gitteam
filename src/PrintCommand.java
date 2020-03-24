@@ -7,7 +7,7 @@ public class PrintCommand implements Command {
 	private Document doc;
 	
 	/**
-	 * @param doc: type of Document
+	 * @param doc: Type of Document
 	 */
 	public PrintCommand (Document doc) {
 		this.doc = doc;

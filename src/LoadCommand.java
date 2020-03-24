@@ -7,7 +7,7 @@ public class LoadCommand implements Command {
 	private Document doc;
 	
 	/**
-	 * @param doc: type of Document
+	 * @param doc: Type of Document
 	 */
 	public LoadCommand (Document doc) {
 		this.doc = doc;
