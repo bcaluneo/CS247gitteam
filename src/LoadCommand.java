@@ -1,19 +1,32 @@
-
+/**
+ *   @author ravipatel
+ *   this class executes and Loads the document
+ */
 public class LoadCommand implements Command {
-
+	
+	private Document doc;
+	
+	/**
+	 * @param doc: type of Document
+	 */
 	public LoadCommand (Document doc) {
-		
+		this.doc = doc;
 	}
+	
+	/**
+	 * this method excutes and calls load function in Document class  
+	 */
 	@Override
 	public void execute() {
-		// TODO Auto-generated method stub
-		
+		doc.load();
 	}
 
+	/**
+	 * this function returns the name
+	 */
 	@Override
 	public String getName() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Load";
 	}
 	
 

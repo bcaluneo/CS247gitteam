@@ -1,19 +1,32 @@
-
+/**
+ *  @author ravipatel
+ *  this class executes and prints the docs
+ */
 public class PrintCommand implements Command {
 
+	private Document doc;
+	
+	/**
+	 * @param doc: type of Document
+	 */
 	public PrintCommand (Document doc) {
-		
+		this.doc = doc;
 	}
+	
+	/**
+	 * this method excutes and calls print function in Document class 
+	 */
 	@Override
 	public void execute() {
-		// TODO Auto-generated method stub
-		
+		doc.print();	
 	}
 
+	/**
+	 * this method returns the name 
+	 */
 	@Override
 	public String getName() {
-		// TODO Auto-generated method stub
-		return null;
+		return "Print";
 	}
 	
 
